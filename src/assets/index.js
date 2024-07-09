@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,6 +21,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.svg";
+import postgres from "./tech/postgresql.svg";
+import tensorflow from "./tech/tensorflow.svg";
+import aws from "./tech/aws.svg";
+import fastapi from "./tech/fastapi.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +65,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  postgres,
+  tensorflow,
+  aws,
+  fastapi,
 };
