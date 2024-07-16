@@ -31,6 +31,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import itam from "./company/logo-ITAM.png";
+import gobravo from "./company/gobravo.png";
+import mattilda from "./company/mattilda.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -70,4 +73,7 @@ export {
   tensorflow,
   aws,
   fastapi,
+  itam,
+  gobravo,
+  mattilda,
 };

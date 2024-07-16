@@ -28,6 +28,9 @@ import {
     tensorflow,
     aws,
     fastapi,
+    itam,
+    gobravo,
+    mattilda,
   } from "../assets";
   
   export const navLinks = [
@@ -51,7 +54,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Engineer",
       icon: mobile,
     },
     {
@@ -59,7 +62,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Data Analyst",
       icon: creator,
     },
   ];
@@ -115,40 +118,39 @@ import {
     {
       title: "Marketing Intern",
       company_name: "ITAM",
-      icon: starbucks,
+      icon: itam,
       iconBg: "#383E56",
       date: "November 2021 - October 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted market research that identified key customer segments and generated new product ideas.",
+        "Developed effective brand messaging that resonated with target consumers",
+        "Automated email contacting to the different customers using Python"
       ],
     },
     {
       title: "Strategy Analyst",
       company_name: "Resuelve tu Deuda | Go Bravo",
-      icon: tesla,
+      icon: gobravo,
       iconBg: "#E6DEDD",
       date: "October 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a lead generation strategy that increased qualified leads -> Helped increased clients debt in 30%",
+        "Developed dashboards and reports using SQL, LookerStudio and Metabase",
+        "Developed a comprehensive employee segmentation strategy that increased sales by 25% over the course of 6 months"
       ],
     },
     {
       title: "Tech Analyst",
       company_name: "mattilda",
-      icon: shopify,
+      icon: mattilda,
       iconBg: "#383E56",
       date: "May 2023 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Develop BackEnd endpoints usign AWS Lambda and FastAPI, for the software platform and internal use.",
+        "Focused on automating different proccesses like the creation Down-Payments and invoicing process.",
+        "Designed and implemented a business intelligence system that enabled data-driven decision-making, Databricks, Power BI and Tablue",
+        "Developed a data ingestion process to automate the transfer of data from multiple sources into a single database, resulting in a 50% reduction in manual data entry",
+        "Designed a Dasboards that as embedded into the platform in order to improve data visibility for customers."
       ],
     },
   
@@ -201,7 +203,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sperezg6",
     },
     {
       name: "Job IT",
@@ -222,7 +224,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sperezg6",
     },
     {
       name: "Trip Guide",
