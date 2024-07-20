@@ -31,6 +31,9 @@ import {
     itam,
     gobravo,
     mattilda,
+    lstm,
+    photo_portafolio,
+    premier,
   } from "../assets";
   
   export const navLinks = [
@@ -185,67 +188,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "LSTM for Music Generation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A deep learning model that generates music using Long Short-Term Memory (LSTM) networks. The model was trained on a dataset of classical music compositions in MIDI format.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "keras",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tensorflow",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/sperezg6",
+      image: lstm,
+      source_code_link: "https://huggingface.co/collections/SantiagoPG/music-generation-model-66551bbe7491c508a139a0c4",
     },
     {
-      name: "Job IT",
+      name: "Evolutionary Calendar Algorithm",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Evolutionary Algorithm that generates a calendar for the Premier League. The algorithm uses a genetic algorithm to optimize the calendar based on different constraints. Like the distance between teams, the number of games played at home, and the number of games played in a row.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Evolutionary Algorithm",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "IA",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/sperezg6",
+      image: premier,
+      source_code_link: "https://github.com/sperezg6/evolutionaty_calendar_algorithm",
     },
     {
-      name: "Trip Guide",
+      name: "Personal Photo Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A personal portfolio website that showcases my photography work. The website features a gallery of photos, a contact form, and a blog. This was made using HTML, CSS, and JavaScript.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/sperezg6",
+      image: photo_portafolio,
+      source_code_link: "https://github.com/sperezg6/photo_portafolio.io",
     },
   ];
   

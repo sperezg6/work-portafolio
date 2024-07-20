@@ -7,11 +7,11 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWraper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { s } from 'maath/dist/misc-19a3ec46.esm';
 
 // gxINONz175_ipOSeG
 // template_crru42l
 // service_wuy7izp
+
 
 
 const Contact = () => {
@@ -79,6 +79,7 @@ const Contact = () => {
       variants={slideIn("left", "tween", 0.2, 1)}
       className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
       <p className={styles.sectionSubText}>Get in touch</p>
+      <button className={styles.sectionText}>spg1824@gmail.com</button>
       <h3 className={styles.sectionHeadText}>Contact.</h3>
 
       <form

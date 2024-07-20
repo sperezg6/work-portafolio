@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             23 year old Tech Analyst <br className='sm:block hidden' />
-            based in Mexico City
+            based in Mexico City with a passion for machine learning, data science and music
           </p>
         </div>
       </div>

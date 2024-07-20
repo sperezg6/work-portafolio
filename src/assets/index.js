@@ -38,6 +38,9 @@ import mattilda from "./company/mattilda.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import lstm from "./lstm.png";
+import photo_portafolio from "./photo_portafolio.png";
+import premier from "./premier.png";
 
 export {
   logo,
@@ -76,4 +79,7 @@ export {
   itam,
   gobravo,
   mattilda,
+  lstm,
+  photo_portafolio,
+  premier,
 };
