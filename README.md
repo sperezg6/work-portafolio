@@ -37,13 +37,11 @@ This is the repository for my personal portfolio, showcasing my skills and exper
    git clone
    ```
 
-2. ```bash
-  cd repository nate
-   ````
+2. Go to the root.
+    ```bash
+    cd repository name
+    ```
 
-3. ```bash
-  npm install
-   ````
 
 ## Contributions
 Contributions are welcome. Feel free to open an issue or submit a pull request.
