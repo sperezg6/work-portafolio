@@ -35,7 +35,7 @@ This is the repository for my personal portfolio, showcasing my skills and exper
 1. Clone the repository:
    ```bash
    git clone
-   ````
+   ```
 
 2. ```bash
   cd repository nate
